@@ -11,7 +11,9 @@ class TestService(TestCase):
   def test_divide(self, divide):
     self.assertEqual(divide(2), 5)
   
-  
+
+  def test_abs_plus(self, abs_plus):
+    self.assertEqual(abs_plus(2), 3)
 
 
 
